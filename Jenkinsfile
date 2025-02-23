@@ -5,17 +5,6 @@ buildPlugin(
     [platform: 'windows', jdk: 11],
 ])
 
-unclassified:
-  jFrogPlatformBuilder:
-    jfrogInstances:
-      - serverId: "acme"
-        url: "https://acme.jfrog.io"
-        artifactoryUrl: "https://acme.jfrog.io/artifactory"
-        distributionUrl: "https://acme.jfrog.io/distribution"
-        xrayUrl: "https://acme.jfrog.io/xray"
-        credentialsConfig:
-          credentialsId: "acme-secret-recipe"
-
 tool:
   jfrog:
     installations:
